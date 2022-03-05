@@ -33,6 +33,16 @@ body {
 	line-height: 1;
 }
 
+::-moz-selection { /* Code for Firefox */
+	color: black;
+	background: #5dfc6e;
+}
+
+::selection {
+	color: black;
+	background: #5dfc6e;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -3907,7 +3917,7 @@ input, select, textarea {
 			overflow: auto;
 			text-align: center;
 			visibility: hidden;
-			width: 18em;
+			width: 20em;
 		}
 
 			#menu .inner > :first-child {
